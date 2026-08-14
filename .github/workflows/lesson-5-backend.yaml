@@ -6,7 +6,7 @@ on:
       - lesson-5
 jobs:
   security_test:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: backend
@@ -48,5 +48,3 @@ jobs:
       - name: '**PLACEHOLDER** Deploy to Elastic Beanstalk'
         run: echo Placeholder for Deployment
 
-
-#test
